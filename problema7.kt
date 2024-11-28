@@ -8,7 +8,7 @@ def derivada_simbolica(expresion, variable):
     derivada = diff(expresion, x)
     return derivada
 
-#Ejemplo:
+
 derivada = "2*x**2 + 2*x"
 variable = "x"
 print(f"Derivada de '{derivada}': {derivada_simbolica(derivada, variable)}")
