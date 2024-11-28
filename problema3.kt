@@ -11,6 +11,6 @@ def posicionenfibonacci(num):
         pos += 1
     return pos if a == num else None
 
-# Ejemplo de uso:
+
 num = 21
 print(f"Posición de {num} en Fibonacci: {posicionenfibonacci(num)}")
