@@ -9,7 +9,7 @@ def fibonacci_inverso(n):
         fib.append(fib[-1] + fib[-2])
     return fib[::-1]
 
-# Ejemplo de uso:
+
 n = 5
 print(f"Fibonacci inverso ({n} términos): {fibonacci_inverso(n)}")
 
