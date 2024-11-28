@@ -16,7 +16,7 @@ def fibonacci_primo_cercano(n):
     candidatos = [x for x in fib if es_primo(x)]
     return candidatos[-1] if candidatos else None
 
-#Ejemplo:
+
 n = 10
 print(f"Número primo más cercano al índice {n} en Fibonacci: {fibonacci_primo_cercano(n)}")
 
