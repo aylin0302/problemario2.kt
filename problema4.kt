@@ -20,13 +20,4 @@ def fibonacci_primo_cercano(n):
 n = 10
 print(f"Número primo más cercano al índice {n} en Fibonacci: {fibonacci_primo_cercano(n)}")
 
-#5. Factorial: Pedir por teclado N y calcular el Factorial de N
-#(N! = 1 * 2 * 3 * ... * N)
 
-def factorial(n):
-    if n < 0:
-        return None
-    resultado = 1
-    for i in range(1, n + 1):
-        resultado *= i
-    return resultado
