@@ -9,6 +9,6 @@ def suma_fibonacci(n):
         suma += fib[-1]
     return suma
 
-#Ejemplo:
+
 n = 15
 print(f"Suma de los primeros {n} términos de Fibonacci: {suma_fibonacci(n)}")
