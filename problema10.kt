@@ -9,7 +9,7 @@ def integral_trapecio(funcion, a, b, n=1000):
         suma += funcion(a + i * h)
     return suma * h
 
-#Ejemplo:
+
 funcion = lambda x: x**4
 a, b = 0, 2
 print(f"Integral definida de x^4 en [{a}, {b}]: {integral_trapecio(funcion, a, b)}")
