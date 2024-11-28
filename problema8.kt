@@ -4,7 +4,7 @@
 def derivada_aproximada(funcion, x, h=1e-5):
     return (funcion(x + h) - funcion(x - h)) / (2 * h)
 
-#Ejemplo:
+
 funcion = lambda x: 5*x**2 + 2*x
 x = 1
 print(f"Derivada aproximada en x={x}: {derivada_aproximada(funcion, x)}")
