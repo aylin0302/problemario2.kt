@@ -17,5 +17,5 @@ def grafica_fibonacci_acumulativa(n):
     plt.title("Gráfica de Fibonacci acumulativa")
     plt.show()
 
-#Ejemplo:
+
 grafica_fibonacci_acumulativa(20)
