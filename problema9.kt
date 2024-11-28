@@ -10,7 +10,7 @@ def optimizacion_cuadratica(expresion):
     critico = solve(derivada, x)
     return critico, derivada
 
-#Ejemplo:
+
 expresion = "x**2 - 8*x + 3"
 criticos, derivada = optimizacion_cuadratica(expresion)
 print(f"Puntos críticos: {criticos}, Derivada: {derivada}")
