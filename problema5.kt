@@ -9,6 +9,6 @@ def factorial(n):
         resultado *= i
     return resultado
 
-#Ejemplo:
+
 n = 10
 print(f"Factorial de {n}: {factorial(n)}")
